@@ -26,16 +26,19 @@ nav {
     max-height: 3.5vh;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .downchevron {
     padding: 0px 0px 0px 9px;
     max-width: 0.6vw;
+    cursor: pointer;
 }
 
 .navicons {
     padding: 0px 15px;
     max-width: 3vh;
+    cursor: pointer;
 }
 
 #sat_img_wrap {
@@ -234,8 +237,8 @@ nav {
 
 .landhidden {
     position: absolute;
-    left: 550px;
-    top: 450px;
+    left: 530px;
+    top: 400px;
     display: none;
   }
   
