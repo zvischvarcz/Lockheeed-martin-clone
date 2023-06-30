@@ -191,13 +191,35 @@ nav {
     height: 4vh;
     position: absolute;
     font-size: 17px;
+    cursor: pointer;
 }
+
+.hidden-blue-box {
+    background-color: rgb(20,44,84);
+    max-width: 300px;
+    color: white;
+    font-size: 13px;
+    padding: 9px;
+    
+  }
 
 /* cyber */
 .target1{
     top: 285px;
     right: 490px;
 }
+
+.cyberhidden {
+    position: absolute;
+    left: 950px;
+    top: 190px;
+    display: none;
+  }
+  
+  .target1:hover + .cyberhidden {
+    display: block;
+    z-index: 1;
+  }
 
 .texttargets1{
     top: 270px;
@@ -210,6 +232,18 @@ nav {
     right: 525px;
 }
 
+.landhidden {
+    position: absolute;
+    left: 550px;
+    top: 450px;
+    display: none;
+  }
+  
+  .target2:hover + .landhidden {
+    display: block;
+    z-index: 1;
+  }
+
 .texttargets2{
     top: 420px;
     right: 480px;
@@ -220,6 +254,18 @@ nav {
     top: 250px;
     right: 730px;
 }
+
+.airhidden {
+    position: absolute;
+    left: 500px;
+    top: 140px;
+    display: none;
+  }
+  
+  .target3:hover + .airhidden {
+    display: block;
+    z-index: 1;
+  }
 
 .texttargets3{
     top: 250px;
@@ -232,6 +278,18 @@ nav {
     left: 325px;
 }
 
+.spacehidden {
+    position: absolute;
+    left: 80px;
+    top: 210px;
+    display: none;
+  }
+  
+  .target4:hover + .spacehidden {
+    display: block;
+    z-index: 1;
+  }
+
 .texttargets4{
     top: 130px;
     left: 270px;
@@ -242,6 +300,18 @@ nav {
     top: 465px;
     right: 905px;
 }
+
+.seahidden {
+    position: absolute;
+    left: 130px;
+    top: 380px;
+    display: none;
+  }
+  
+  .target5:hover + .seahidden {
+    display: block;
+    z-index: 1;
+  }
 
 .texttargets5{
     top: 455px;
